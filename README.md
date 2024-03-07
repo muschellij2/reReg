@@ -1,6 +1,8 @@
 
 ## **reReg**
 
+<!-- badges: start -->
+
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
@@ -12,9 +14,11 @@ version](https://img.shields.io/badge/R%3E%3D-3.4.0-6666ff.svg)](https://cran.r-
 Status](https://ci.appveyor.com/api/projects/status/github/stc04003/reReg?branch=master&svg=true)](https://ci.appveyor.com/project/stc04003/reReg)
 [![Travis-CI Build
 Status](https://travis-ci.org/stc04003/reReg.svg?branch=master)](https://travis-ci.org/stc04003/reReg)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2022--08--23-yellowgreen.svg)](/commits/master)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2024--03--07-yellowgreen.svg)](/commits/master)
 <!-- [![Build Status](https://travis-ci.org/user/pkg.svg?branch=master)](https://travis-ci.org/user/pkg) -->
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![R-CMD-check](https://github.com/stc04003/reReg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stc04003/reReg/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 ### Regression models for recurrent event data
 
@@ -42,17 +46,17 @@ devtools::install_github("stc04003/reReg", ref = "main")
 
 [Online document](https://www.sychiou.com/reReg/index.html) includes:
 
--   Package vignette on [Creating `Recur`
-    objects](https://www.sychiou.com/reReg/articles/reReg-Recur.html).
--   Package vignette on [visualization of recurrent event
-    data](https://www.sychiou.com/reReg/articles/reReg-plot.html).
--   Package vignette on [simulating recurrent event
-    data](https://www.sychiou.com/reReg/articles/reReg-sims.html).
--   Package vignette on [regression analysis for recurrent event
-    data](https://www.sychiou.com/reReg/articles/reReg-reg.html).
--   Package vignette on [improving semiparametric estimation of the
-    Cox-type proportional rate
-    model](https://www.sychiou.com/reReg/articles/reReg-cppl.html).
+- Package vignette on [Creating `Recur`
+  objects](https://www.sychiou.com/reReg/articles/reReg-Recur.html).
+- Package vignette on [visualization of recurrent event
+  data](https://www.sychiou.com/reReg/articles/reReg-plot.html).
+- Package vignette on [simulating recurrent event
+  data](https://www.sychiou.com/reReg/articles/reReg-sims.html).
+- Package vignette on [regression analysis for recurrent event
+  data](https://www.sychiou.com/reReg/articles/reReg-reg.html).
+- Package vignette on [improving semiparametric estimation of the
+  Cox-type proportional rate
+  model](https://www.sychiou.com/reReg/articles/reReg-cppl.html).
 
 ### References:
 

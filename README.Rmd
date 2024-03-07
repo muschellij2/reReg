@@ -4,6 +4,7 @@ output: github_document
 
 ## **reReg**
 
+<!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![minimal R version](https://img.shields.io/badge/R%3E%3D-3.4.0-6666ff.svg)](https://cran.r-project.org/)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/reReg)](https://cran.r-project.org/package=reReg)
@@ -13,7 +14,9 @@ output: github_document
 [![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)](/commits/master)
 <!-- [![Build Status](https://travis-ci.org/user/pkg.svg?branch=master)](https://travis-ci.org/user/pkg) -->
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
+[![R-CMD-check](https://github.com/stc04003/reReg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stc04003/reReg/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+  
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
